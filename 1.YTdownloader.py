@@ -2,7 +2,7 @@ import cowsay
 from pytube import YouTube
 import os
 
-blacklist=["*", ";", ",", "/", ":"] #blacklisted characters from YT titles
+blacklist=["*", ";", ",", "/", ":"] #blacklisted characters from YT titles, maybe incomplete
 
 #getting file extension and YT link
 mode = input("For mp3 download, hit [0].For mp4 download, hit [1]. For both, hit [2] : ")
